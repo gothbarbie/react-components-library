@@ -1,0 +1,7 @@
+@import "styles/variables";
+
+.index {
+  width: 100%;
+  max-width: 500px;
+  margin: 9% auto;
+}

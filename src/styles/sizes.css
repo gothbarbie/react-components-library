@@ -1,0 +1,17 @@
+:root {
+  --sizes: '../../styles/sizes.css';
+
+  --width: 1000px;
+  --spacing: 30px;
+  --spacing-third: calc(var(--spacing) / 3);
+  --spacing-half: calc(var(--spacing) / 2);
+  --spacing-medium: 20px;
+
+  --border-width: 1px;
+  --border-type: solid;
+
+  --border-radius: 4px;
+  --background-border-radius: 2px;
+  --input-border-radius: 2px;
+  --button-border-radius: 3px;
+}

@@ -1,0 +1,50 @@
+@import "styles/variables";
+
+.button {
+  background-color: var(--color-light-grey);
+  border: 1px solid var(--color-light-grey);
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px var(--color-black-shadow);
+  color: var(--color-super-black);
+  display: flex;
+  font-size: .9em;
+  padding: .5em 1em;
+  flex-direction: row;
+  justify-content: space-around;
+  outline: none;
+}
+
+.button:hover {
+  box-shadow: none;
+}
+
+
+.button:active {
+  box-shadow: none;
+  color: var(--color-dark-grey);
+}
+
+.button:focus {
+  border-color: var(--color-selected);
+  box-shadow: none;
+}
+
+.button__text {
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+.button--size-small {
+  font-size: .8em;
+  padding: .4em .8em;
+}
+
+.button--size-medium {
+  font-size: .9em;
+  padding: .5em 1em;
+}
+
+.button--size-large {
+  font-size: 1em;
+  padding: 1em 2em;
+}
